@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: rgb(195, 184, 206, .32);
+    height: 5rem;
+    color:rgb(153, 107, 191);
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow:0px 10px 8px rgb(215, 212, 216 );
+    font-weight: bold;
+}
+nav h2{
+    font-style: italic; 
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+.Def-page-one{
+text-align: center; color: #000;
+font-family: Inter;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height:normal;
+
+}
+
+.title-project{
+    color: #996BBF;
+
+font-family: Inter;
+font-size: 70px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+.LOG-SIN{
+    color: #996BBF;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: #996BBF;
+    width: 224px;
+    height: 81px;
+    flex-shrink: 0;
+    text-align: right;
+
+}
+.main{
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+}
+
+
+.LOG-SIN{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+.LOG-SIN button{align-self: left;
+ background-color: rgb(195, 184, 206, .32);
+ color:rgb(153, 107, 191); 
+ border: none;
+ width: 150px;
+ height: 50px;
+ font-size: 50px;
+}
+.LOG-SIN a{
+    text-decoration: none;
+    color:rgb(153, 107, 191); 
+}
+
+/* ----------------- Start page 2 Sin Up---------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+   display: flex;
+   flex-direction: column;
+}
+
+ nav{
+    position: sticky;
+    background-color: rgb(195, 184, 206, .32);
+    height: 5rem;
+    color:rgb(153, 107, 191);
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow:0px 10px 8px rgb(215, 212, 216);
+    font-weight: bold;
+}
+nav h2{
+    font-style: italic;
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+.contaier{
+    width: 100%;
+    display: flex;
+   flex-direction: column;    
+   align-items: center;
+   justify-content: center;
+   
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+.btn  a{
+    text-decoration: none;
+    color:rgb(153, 107, 191); 
+}
+
+
+/* ----------------- End page 2 Sin Up---------------- */
+
+
+
+/* ----------------------start page 3 "week-plan"------------------ */
+
+.P3-sec1{
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% auto; 
+    background-color: rgb(195, 184, 206, .32);
+    box-shadow:0px 10px 8px rgb(215, 212, 216);  
+    justify-content: center;
+    align-items: center;
+}
+
+.P3-sec1 .sec1-text {
+    font-family:Arial, Helvetica, sans-serif;
+    display: grid;  
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: left;   
+      
+ }
+.P3-sec1 .sec1-text  h1{
+     font-size: 90px;
+     color:rgb(153, 107, 191);
+     
+}
+.P3-sec1 .sec1-text  h5{
+    font-size:50px;  
+    text-decoration: underline rgb(160, 192, 197); 
+ }
+ .P3-sec1 .sec1-text  p{
+    font-size: 30px;
+      
+ }
+
+ .P3-sec2{
+    display: grid;
+    grid-template-columns: 70% auto;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+ }
+ .P3-sec2 .sec2-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+ }
+ .P3-sec2 .days{
+    background-color: rgb(148, 155, 209, .89);
+    width: 250px;
+    height: 308px;
+    border-radius: 90px;
+    border:solid rgba(157, 86, 215, 0.23);
+ }
+.P3-sec2 h5{
+    font-size: 40px;
+}
+.P3-sec2 .days img{
+    width: 120px;
+    height: 250px;
+}
+.P3-sec2 .sec2-2 img{
+    width:20rem;
+
+}
+
+
+
+/* ----------------------End page 3 "week-plan"------------------ */
+
+
+
+/* ----------------------Start page 4 "Day-plan"------------------ */
+
+.sec1{
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto; 
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 90px;
+    color:rgb(153, 107, 191);
+}
+
+ .sec2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+
+ }
+
+ .sec2 .workout{
+    background-color: rgb(153, 107, 191, .48);
+    width: 250px;
+    height: 308px;
+    border-radius: 90px;
+    border:solid rgba(153, 107, 191, 0.12);
+ }
+ .sec2 img{
+    width: 200px;
+    height: 210px;
+}
+
+.d-flex a{
+    text-decoration: none;
+    color:rgb(153, 107, 191);
+}
+/* ----------------------End page 4 "Day-plan"------------------ */
+
+
+
+
+
